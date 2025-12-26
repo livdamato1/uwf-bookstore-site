@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout | University of West Florida Bookstore</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>University of West Florida Bookstore</h1>
+</header>
+
+<main class="checkout">
+
+  <section class="form">
+    <h2>Billing & Payment</h2>
+
+    <form id="checkoutForm">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="text" placeholder="Address" required>
+
+      <div class="row">
+        <input type="text" placeholder="City" required>
+        <input type="text" placeholder="State" required>
+        <input type="text" placeholder="ZIP" required>
+      </div>
+
+      <input type="text" placeholder="Card Number" required>
+      <div class="row">
+        <input type="text" placeholder="MM/YY" required>
+        <input type="text" placeholder="CVV" required>
+      </div>
+
+      <button type="submit">Place Order</button>
+    </form>
+  </section>
+
+  <section class="summary">
+    <h2>Order Summary</h2>
+    <p>Textbooks & Supplies</p>
+    <h3>Total: $600.00</h3>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
